@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Restaurantfinder</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="text_button_new">Neue Gruppe</string>
+    <string name="text_button_saved">Gespeicherte Gruppen</string>
+    <string name="text_button_profile">Mein Profil</string>
+</resources>
