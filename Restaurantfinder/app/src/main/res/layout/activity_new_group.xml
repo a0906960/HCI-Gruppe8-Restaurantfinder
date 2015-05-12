@@ -9,27 +9,55 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".NewGroup"
-    android:id="@+id/">
+    >
 
-    <TextView
-        android:layout_width="wrap_content"
+    <AutoCompleteTextView
+        android:id="@+id/autoCompletePersons"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Test New Group"
-        android:id="@+id/textView"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp" />
+        android:hint="@string/newGroupHint"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:layout_below="@+id/groupNameEditText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="back"
-        android:id="@+id/back_button1"
-        android:layout_alignParentTop="true"
+        android:text="Hinzufügen"
+        android:id="@+id/addPerson"
+        android:layout_below="@+id/autoCompletePersons"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ListView
+        android:id="@+id/newGroupListView"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_below="@+id/addPerson"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gruppe speichern"
+        android:id="@+id/save_group_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nameGroupHint"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:id="@+id/groupNameEditText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 
 </RelativeLayout>

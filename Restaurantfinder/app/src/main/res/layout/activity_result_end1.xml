@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:layout_gravity="center_vertical"
+
+    tools:context=".Result1">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pizzeria Papadia"
+        android:id="@+id/textView17"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.08"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:layout_width="127dp"
+        android:layout_height="137dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/gutschine"
+        android:layout_weight="0.25"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Heimerstraße 8"
+        android:id="@+id/textView18"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Italienisch"
+        android:id="@+id/textView19"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Mo-Fr:10 Uhr - 23 Uhr Sa,So: 12 Uhr -23 Uhr"
+        android:id="@+id/textView20"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:text="Map"
+        android:id="@+id/button_res1_1"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:text="Web"
+        android:id="@+id/button_res1_2"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp" />
+
+
+</LinearLayout>
