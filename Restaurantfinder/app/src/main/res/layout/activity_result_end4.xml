@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+
+    tools:context=".Result4">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Zum Grünen Wirt"
+        android:id="@+id/textView17"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08"
+        android:focusableInTouchMode="false"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="40dp"/>
+
+    <ImageView
+        android:layout_width="206dp"
+        android:layout_height="172dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/schnitzel" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pappgasse 1"
+        android:id="@+id/textView18"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Schnitzel"
+        android:id="@+id/textView19"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Mo-Fr:7 Uhr - 23 Uhr So: 10 Uhr -23 Uhr"
+        android:id="@+id/textView20"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:text="Map"
+        android:id="@+id/button_res4_1"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:text="Web"
+        android:id="@+id/button_res4_2"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp" />
+
+
+</LinearLayout>

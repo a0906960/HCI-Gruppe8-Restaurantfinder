@@ -25,6 +25,12 @@
 
         <activity android:name=".EditProfile"></activity>
 
+        <activity android:name=".Results"></activity>
+        <activity android:name=".Result1"></activity>
+        <activity android:name=".Result2"></activity>
+        <activity android:name=".Result3"></activity>
+        <activity android:name=".Result4"></activity>
+
     </application>
 
 </manifest>

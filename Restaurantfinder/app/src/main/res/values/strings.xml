@@ -7,4 +7,7 @@
     <string name="text_button_new">Neue Gruppe</string>
     <string name="text_button_saved">Gespeicherte Gruppen</string>
     <string name="text_button_profile">Mein Profil</string>
+    <string name="hint">Dein Name</string>
+    <string name="newGroupHint">Person hinzufügen</string>
+    <string name="nameGroupHint">Gruppenname</string>
 </resources>
