@@ -6,24 +6,44 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        >
+
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".NewGroup" />
-        <activity android:name=".SavedGroups" />
-        <activity android:name=".EditProfile" />
-        <activity android:name=".Results" />
-        <activity android:name=".Result1" />
-        <activity android:name=".Result2" />
-        <activity android:name=".Result3" />
-        <activity android:name=".Result4" />
+        <activity
+            android:name=".NewGroup"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".SavedGroups"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".EditProfile"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Results"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Result1"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Result2"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Result3"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Result4"
+            android:screenOrientation="portrait"/>
 
         <activity
             android:name=".Splashscreen"
             android:label="@string/title_activity_splashscreen"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="hci_g8.restaurantfinder.MainActivity"/>

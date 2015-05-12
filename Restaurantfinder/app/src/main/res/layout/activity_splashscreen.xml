@@ -7,7 +7,6 @@
     android:paddingRight="0dp"
     android:paddingTop="0dp"
     android:paddingBottom="0dp"
-    android:screenOrientation="portrait"
 
     tools:context="hci_g8.restaurantfinder.Splashscreen"
     android:background="@mipmap/splashscreen">
