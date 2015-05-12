@@ -13,7 +13,9 @@ import java.util.ArrayList;
 
 public class SavedGroups extends Activity implements View.OnClickListener {
 
-    Button button_results;
+    Button button_results1;
+    Button button_results2;
+    Button button_results3;
 
     ArrayList<Person> groupDB = new ArrayList<Person>();
 
@@ -22,8 +24,14 @@ public class SavedGroups extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_saved_groups);
 
-        button_results = (Button) findViewById(R.id.button_results);
-        button_results.setOnClickListener(this);
+        button_results1 = (Button) findViewById(R.id.button_results1);
+        button_results1.setOnClickListener(this);
+
+        button_results2 = (Button) findViewById(R.id.button_results2);
+        button_results2.setOnClickListener(this);
+
+        button_results3 = (Button) findViewById(R.id.button_results3);
+        button_results3.setOnClickListener(this);
 
      /*   Intent intent = getIntent();
         if ( intent != null ) {
@@ -41,11 +49,20 @@ public class SavedGroups extends Activity implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-        if ( v == button_results){
-            Intent result_screen = new Intent(this, Results.class);
+        if ( v == button_results1){
+            Intent result_screen1 = new Intent(this, Results.class);
 
-            startActivity(result_screen);
+            startActivity(result_screen1);
         }
+        if ( v == button_results2){
+            Intent result_screen2 = new Intent(this, Results.class);
 
+            startActivity(result_screen2);
+        }
+        if ( v == button_results3){
+            Intent result_screen3 = new Intent(this, Results.class);
+
+            startActivity(result_screen3);
+        }
     }
 }
