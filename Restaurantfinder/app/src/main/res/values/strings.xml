@@ -10,4 +10,5 @@
     <string name="hint">Dein Name</string>
     <string name="newGroupHint">Person hinzufügen</string>
     <string name="nameGroupHint">Gruppenname</string>
+    <string name="title_activity_splashscreen">Restaurantfinder</string>
 </resources>

@@ -64,7 +64,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             actualSession.setName(newName);
             actualSession.setLikes(newLikes);
             actualSession.setDislikes(newDislikes);
-            Toast.makeText(getApplicationContext(), newName + " " + like1 + " " + like2 + " " + like3, Toast.LENGTH_LONG).show();
+            //Toast.makeText(getApplicationContext(), newName + " " + like1 + " " + like2 + " " + like3, Toast.LENGTH_LONG).show();
         }
       /*if ( i.getBundleExtra("groups") != null ){
             String groupName = getIntent().getStringExtra("groupName");

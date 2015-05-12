@@ -47,13 +47,13 @@ public class NewGroup extends Activity implements View.OnClickListener {
             Bundle extra = getIntent().getBundleExtra("persons");
             personDB = (ArrayList<Person>) extra.getSerializable("personDB");
         }
-        Toast.makeText(getApplicationContext(), personDB.get(1).getName(), Toast.LENGTH_LONG).show();
+        //Toast.makeText(getApplicationContext(), personDB.get(1).getName(), Toast.LENGTH_LONG).show();
 
         for ( int i = 0; i < personDB.size(); i++) {
             personNames.add(i, personDB.get(i).getName());
         }
 
-        Toast.makeText(getApplicationContext(), String.valueOf(personNames.size()), Toast.LENGTH_LONG).show();
+        //Toast.makeText(getApplicationContext(), String.valueOf(personNames.size()), Toast.LENGTH_LONG).show();
 
         String[] NAMES = new String[ personNames.size() ];
 
@@ -61,7 +61,7 @@ public class NewGroup extends Activity implements View.OnClickListener {
             NAMES[j] = String.valueOf(personNames.get(j));
         }
 
-        Toast.makeText(getApplicationContext(), NAMES[2], Toast.LENGTH_LONG).show();
+        //Toast.makeText(getApplicationContext(), NAMES[2], Toast.LENGTH_LONG).show();
 
         autoCompletePersons = (AutoCompleteTextView) findViewById(R.id.autoCompletePersons);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, NAMES);
@@ -118,7 +118,7 @@ public class NewGroup extends Activity implements View.OnClickListener {
                 }
             }
 
-            Toast.makeText(getApplicationContext(), group.toString(), Toast.LENGTH_LONG).show();
+            //Toast.makeText(getApplicationContext(), group.toString(), Toast.LENGTH_LONG).show();
 
             groupArrayAdapter.notifyDataSetChanged();
             autoCompletePersons.setText(null);

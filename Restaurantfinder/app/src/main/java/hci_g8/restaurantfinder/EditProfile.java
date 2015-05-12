@@ -17,7 +17,6 @@ import java.util.List;
 
 public class EditProfile extends Activity implements View.OnClickListener {
 
-    Button back_button3;
     Button save_button;
 
     Spinner likeSpinner1;
@@ -149,9 +148,6 @@ public class EditProfile extends Activity implements View.OnClickListener {
         });
 
 
-        // define back button
-        back_button3 = (Button) findViewById(R.id.back_button3);
-        back_button3.setOnClickListener(this);
 
         // define save button
         save_button = (Button) findViewById(R.id.save_button);
@@ -167,9 +163,6 @@ public class EditProfile extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         switch(v.getId()) {
-            case R.id.back_button3:
-                finish();
-                break;
             case R.id.save_button:
 
                 Intent nextScreen = new Intent (this, MainActivity.class);
